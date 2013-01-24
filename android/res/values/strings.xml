@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">w3d</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="app_name">W3D</string>
+    <string name="dropbox_auth_activity_title">W3D Dropbox Auth</string>
+    <string name="dropbox_auth_auth">Authenticate Dropbox</string>
+    <string name="dropbox_auth_test">Test</string>
 
 </resources>

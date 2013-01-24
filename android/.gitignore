@@ -1,2 +1,4 @@
 gen
 bin
+res/values/secret.xml
+src/com/daohoangson/w3d/Secret.java
