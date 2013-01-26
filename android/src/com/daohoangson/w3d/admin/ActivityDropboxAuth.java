@@ -1,4 +1,4 @@
-package com.daohoangson.w3d;
+package com.daohoangson.w3d.admin;
 
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.daohoangson.w3d.R;
+import com.daohoangson.w3d.Secret;
 import com.dropbox.client2.DropboxAPI;
 import com.dropbox.client2.DropboxAPI.Account;
 import com.dropbox.client2.android.AndroidAuthSession;
@@ -15,7 +17,7 @@ import com.dropbox.client2.exception.DropboxException;
 import com.dropbox.client2.session.AccessTokenPair;
 import com.dropbox.client2.session.AppKeyPair;
 
-public class DropboxAuth extends Activity implements OnClickListener {
+public class ActivityDropboxAuth extends Activity implements OnClickListener {
 
 	private static final String TAG = "DropboxAuth";
 
@@ -55,7 +57,7 @@ public class DropboxAuth extends Activity implements OnClickListener {
 						.getAccessTokenPair();
 
 				// this activity should never be activated to users
-				// so output token pair to console is not very worrying
+				// so outputing token pair to console is not very worrying
 				Log.i(TAG, String.format("key=%s", tokens.key));
 				Log.i(TAG, String.format("secret=%s", tokens.secret));
 			} catch (IllegalStateException e) {

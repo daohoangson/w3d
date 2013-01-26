@@ -2,8 +2,17 @@
 <resources>
 
     <string name="app_name">W3D</string>
-    <string name="dropbox_auth_activity_title">W3D Dropbox Auth</string>
+    
     <string name="dropbox_auth_auth">Authenticate Dropbox</string>
     <string name="dropbox_auth_test">Test</string>
+    
+    <string name="main_activity_title">W3D</string>
+    <string name="main_menu_admin">Administer</string>
+    
+    <string name="fragment_welcome_title">Welcome</string>
+    <string name="fragment_welcome_welcome">So, you are invited!</string>
+    <string name="fragment_photos_title">Photos</string>
+    
+    <string name="under_construction">Under Construction</string>
 
 </resources>
